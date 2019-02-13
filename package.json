@@ -1,0 +1,15 @@
+{
+  "name": "noahcomicjs",
+  "version": "1.0.0",
+  "description": "Extracts cbr and cbz files to folders with images.",
+  "main": "comicExtract.js",
+  "dependencies": {
+    "unzip": "^0.1.11"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node comicExtract.js"
+  },
+  "author": "notpatrickadams",
+  "license": "ISC"
+}
