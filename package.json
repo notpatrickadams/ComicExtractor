@@ -1,9 +1,12 @@
 {
-  "name": "noahcomicjs",
+  "name": "comicextractor",
   "version": "1.0.0",
   "description": "Extracts cbr and cbz files to folders with images.",
   "main": "comicExtract.js",
   "dependencies": {
+    "fs": "0.0.1-security",
+    "readline": "^1.3.0",
+    "unrar.js": "^0.2.5",
     "unzip": "^0.1.11"
   },
   "devDependencies": {},
@@ -11,5 +14,18 @@
     "test": "node comicExtract.js"
   },
   "author": "notpatrickadams",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/notpatrickadams/ComicExtractor.git"
+  },
+  "keywords": [
+    "javascript",
+    "nodejs",
+    "comics"
+  ],
+  "bugs": {
+    "url": "https://github.com/notpatrickadams/ComicExtractor/issues"
+  },
+  "homepage": "https://github.com/notpatrickadams/ComicExtractor#readme"
 }
