@@ -3,8 +3,8 @@
 Basically, this takes any CBZ or CBR archive and extracts it into a folder.
 
 ### Dependencies:
-- unzip
-- unrar.js
+- [unzip](https://www.npmjs.com/package/unzip)
+- [unrar.js](https://www.npmjs.com/package/unrar.js)
 
 ### TODO:
 - Add arguments
