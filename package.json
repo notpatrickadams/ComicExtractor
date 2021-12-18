@@ -4,7 +4,7 @@
   "description": "Extracts cbr and cbz files to folders with images.",
   "main": "comicExtract.js",
   "dependencies": {
-    "fs": "0.0.1-security",
+    "fs": "0.0.2",
     "readline": "^1.3.0",
     "unrar.js": "^0.2.5",
     "unzip": "^0.1.11"
